@@ -1,0 +1,56 @@
+.card{
+    transition: .3s;
+    border: none;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.hero{
+    background: linear-gradient(135deg,#0d6efd,#4f8dfd);
+    color: white;
+}
+
+.hero h1{
+    animation: fadeDown 1s ease;
+}
+
+.hero p{
+    animation: fadeUp 1.2s ease;
+}
+
+
+@keyframes fadeDown{
+
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}

@@ -1,0 +1,121 @@
+body{
+    background:#f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.faq-section{
+    padding:70px 0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.faq-item{
+    background:#fff;
+    margin-bottom:15px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.faq-item summary{
+    list-style:none;
+    cursor:pointer;
+    padding:18px 20px;
+    font-size:18px;
+    font-weight:600;
+    position:relative;
+}
+
+.faq-item summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-item summary::after{
+    content:"+";
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:24px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.faq-item[open] summary{
+    background:#0d6efd;
+    color:#fff;
+}
+
+.faq-item[open] summary::after{
+    content:"−";
+    color:#fff;
+}
+
+.faq-item p{
+    padding:20px;
+    margin:0;
+    line-height:1.7;
+    animation:fade .3s ease;
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.hero{
+    background: linear-gradient(135deg,#0d6efd,#4f8dfd);
+    color: white;
+    padding:80px 0;
+    text-align:center;
+}
+
+.hero h1{
+    font-weight:bold;
+    animation: fadeDown 1s ease;
+}
+
+.hero p{
+    animation: fadeUp 1.2s ease;
+}
+
+
+
+@keyframes fadeDown{
+
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}

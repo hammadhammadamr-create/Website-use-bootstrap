@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    background: linear-gradient(135deg,#0d6efd,#4f8dfd);
+    color:#fff;
+    padding:90px 0;
+}
+
+.hero h1{
+    animation: fadeDown 1s ease;
+}
+
+.hero p{
+    animation: fadeUp 1.2s ease;
+}
+
+
+.card{
+    border-radius:15px;
+    transition: .4s;
+    cursor:pointer;
+}
+
+.card i{
+    transition: .4s;
+}
+
+.card:hover{
+    /* transform: translateY(-10px); */
+    box-shadow:0 20px 35px rgba(0,0,0,.15)!important;
+}
+
+.card:hover i{
+    transform: scale(1.2) rotate(10deg);
+}
+
+
+form input,
+form textarea{
+    transition:.3s;
+}
+
+form input:focus,
+form textarea:focus{
+    transform:scale(1.02);
+    border-color:#0d6efd;
+    box-shadow:0 0 12px rgba(13,110,253,.25);
+}
+
+
+.btn-primary{
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(13,110,253,.35);
+}
+
+
+@keyframes fadeDown{
+
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
