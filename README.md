@@ -39,7 +39,7 @@ The website is fully responsive and optimized for:
 ## 📸 Screenshots
 
 ### Home
-![Home](./images/home.png)
+![Courses](./images/course.png)
 
 ### About
 ![About](./images/about.png)
