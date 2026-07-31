@@ -1,21 +1,28 @@
 .card{
-    transition: .3s;
-    border: none;
+    transition:.3s;
+    border-radius:20px;
+    overflow:hidden;
 }
 
 .card:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.15)!important;
 }
 
 .card img{
-    height: 200px;
-    object-fit: cover;
+    transition:.4s;
 }
 
-.hero{
-    background: linear-gradient(135deg,#0d6efd,#4f8dfd);
-    color: white;
+.card:hover img{
+    transform:scale(1.08);
+}
+
+section h2{
+    font-weight:bold;
+}
+
+.badge{
+    font-size:.8rem;
 }
 
 .hero h1{

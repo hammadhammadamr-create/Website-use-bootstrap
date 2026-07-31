@@ -39,282 +39,336 @@
 
   <!-- Main Content -->
 
-  <main>
+    <main>
+
         <!-- Hero Section -->
-
-        <section class="hero py-5 text-white text-center">
-
-            <div class="container">
-
-                <h1 class="display-4 fw-bold">
-                    Explore Our Courses
-                </h1>
-
-                <p class="lead mt-3">
-                    Choose from a variety of expert-designed courses and start building your skills today.
+        <section class="bg-primary text-white py-5">
+            <div class="container text-center hero">
+                <h1 class="display-4 fw-bold">Explore Our Courses</h1>
+                <p class="lead mt-3 col-lg-7 mx-auto">
+                    Choose from hundreds of professional courses and start your learning journey today.
                 </p>
+
+                <div class="input-group mt-4 mx-auto" style="max-width:600px;">
+                    <input type="search"
+                        class="form-control shadow-none"
+                        placeholder="Search courses...">
+
+                    <button class="btn btn-warning">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Courses -->
+
+        <section class="container py-5">
+
+            <div class="d-flex justify-content-between align-items-center mb-4">
+
+                <h2 class="fw-bold">
+                    Popular Courses
+                </h2>
+
+                <a href="#" class="text-decoration-none">
+                    View All
+                </a>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card border-0 shadow h-100">
+
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-success mb-2">
+                                Free
+                            </span>
+
+                            <h5 class="fw-bold">
+                                HTML & CSS
+                            </h5>
+
+                            <p class="text-muted">
+                                Learn responsive websites from scratch.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+
+                            <button class="btn btn-primary w-100 rounded-pill">
+                                Start Course
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card border-0 shadow h-100">
+
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-warning text-dark mb-2">
+                                Premium
+                            </span>
+
+                            <h5 class="fw-bold">
+                                JavaScript
+                            </h5>
+
+                            <p class="text-muted">
+                                Build interactive websites using JavaScript.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+
+                            <button class="btn btn-primary w-100 rounded-pill">
+                                Start Course
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card border-0 shadow h-100">
+
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-info mb-2">
+                                Bestseller
+                            </span>
+
+                            <h5 class="fw-bold">
+                                Bootstrap
+                            </h5>
+
+                            <p class="text-muted">
+                                Design responsive websites quickly.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+
+                            <button class="btn btn-primary w-100 rounded-pill">
+                                Start Course
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+
+                    <div class="card border-0 shadow h-100">
+
+                        <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-danger mb-2">
+                                New
+                            </span>
+
+                            <h5 class="fw-bold">
+                                Python
+                            </h5>
+
+                            <p class="text-muted">
+                                Start programming with Python.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+
+                            <button class="btn btn-primary w-100 rounded-pill">
+                                Start Course
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </section>
 
-        <div id="courseSlider" class="carousel slide container py-5" data-bs-ride="carousel">
-
-            <div class="carousel-inner">
-
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
-
-                    <div class="d-flex justify-content-center gap-4">
-
-                        <!-- Card 1 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" class="card-img-top" alt="HTML">
-
-                            <div class="card-body">
-                                <h5 class="card-title">HTML & CSS</h5>
-
-                                <p class="card-text">
-                                    Learn how to build beautiful responsive websites from scratch.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 2 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600" class="card-img-top" alt="JavaScript">
-
-                            <div class="card-body">
-                                <h5 class="card-title">JavaScript</h5>
-
-                                <p class="card-text">
-                                    Master JavaScript and build interactive web applications.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600" class="card-img-top" alt="Bootstrap">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Bootstrap</h5>
-
-                                <p class="card-text">
-                                    Create responsive websites quickly using Bootstrap.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="carousel-item">
-
-                    <div class="d-flex justify-content-center gap-4">
-
-                        <!-- Card 4 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600" class="card-img-top" alt="Python">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Python</h5>
-
-                                <p class="card-text">
-                                    Learn Python from beginner to advanced level.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 5 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600" class="card-img-top" alt="React">
-
-                            <div class="card-body">
-                                <h5 class="card-title">React.js</h5>
-
-                                <p class="card-text">
-                                    Build modern web applications with React.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 6 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600" class="card-img-top" alt="Node">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Node.js</h5>
-
-                                <p class="card-text">
-                                    Learn backend development using Node.js.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- Previous -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#courseSlider" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
-            </button>
-
-            <!-- Next -->
-            <button class="carousel-control-next" type="button" data-bs-target="#courseSlider" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
-            </button>
-
-        </div>
-
-        <h2 class="text-center py-5">The most common:</h2>
         
-        <div id="courseSlider" class="carousel slide container py-5" data-bs-ride="carousel">
+        <!-- Most Common Courses -->
+    
 
-            <div class="carousel-inner">
+        <section class="container py-5">
 
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
+            <div class="d-flex justify-content-between align-items-center mb-4">
 
-                    <div class="d-flex justify-content-center gap-4">
+                <h2 class="fw-bold">
+                    Most Common
+                </h2>
 
-                        <!-- Card 1 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" class="card-img-top" alt="HTML">
+                <a href="#" class="text-decoration-none">
+                    View All
+                </a>
 
-                            <div class="card-body">
-                                <h5 class="card-title">HTML & CSS</h5>
+            </div>
 
-                                <p class="card-text">
-                                    Learn how to build beautiful responsive websites from scratch.
-                                </p>
+            <div class="row g-4">
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="card h-100 border-0 shadow">
+
+                        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-primary mb-2">
+                                Front-End
+                            </span>
+
+                            <h5>React JS</h5>
+
+                            <p class="text-muted">
+                                Build modern websites using React.
+                            </p>
+
                         </div>
 
-                        <!-- Card 2 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600" class="card-img-top" alt="JavaScript">
-
-                            <div class="card-body">
-                                <h5 class="card-title">JavaScript</h5>
-
-                                <p class="card-text">
-                                    Master JavaScript and build interactive web applications.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600" class="card-img-top" alt="Bootstrap">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Bootstrap</h5>
-
-                                <p class="card-text">
-                                    Create responsive websites quickly using Bootstrap.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                        <div class="card-footer bg-white border-0">
+                            <button class="btn btn-primary rounded-pill w-100">
+                                Start Course
+                            </button>
                         </div>
 
                     </div>
 
                 </div>
 
-                <!-- Slide 2 -->
-                <div class="carousel-item">
+                <div class="col-12 col-sm-6 col-lg-3">
 
-                    <div class="d-flex justify-content-center gap-4">
+                    <div class="card h-100 border-0 shadow">
 
-                        <!-- Card 4 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600" class="card-img-top" alt="Python">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
 
-                            <div class="card-body">
-                                <h5 class="card-title">Python</h5>
+                        <div class="card-body">
 
-                                <p class="card-text">
-                                    Learn Python from beginner to advanced level.
-                                </p>
+                            <span class="badge bg-success mb-2">
+                                Backend
+                            </span>
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                            <h5>Node JS</h5>
+
+                            <p class="text-muted">
+                                Learn backend development with Node.
+                            </p>
+
                         </div>
 
-                        <!-- Card 5 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600" class="card-img-top" alt="React">
-
-                            <div class="card-body">
-                                <h5 class="card-title">React.js</h5>
-
-                                <p class="card-text">
-                                    Build modern web applications with React.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                        <div class="card-footer bg-white border-0">
+                            <button class="btn btn-primary rounded-pill w-100">
+                                Start Course
+                            </button>
                         </div>
 
-                        <!-- Card 6 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600" class="card-img-top" alt="Node">
+                    </div>
 
-                            <div class="card-body">
-                                <h5 class="card-title">Node.js</h5>
+                </div>
 
-                                <p class="card-text">
-                                    Learn backend development using Node.js.
-                                </p>
+                <div class="col-12 col-sm-6 col-lg-3">
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                    <div class="card h-100 border-0 shadow">
+
+                        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-danger mb-2">
+                                Database
+                            </span>
+
+                            <h5>SQL</h5>
+
+                            <p class="text-muted">
+                                Learn SQL from beginner to advanced.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+                            <button class="btn btn-primary rounded-pill w-100">
+                                Start Course
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="card h-100 border-0 shadow">
+
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-warning text-dark mb-2">
+                                Framework
+                            </span>
+
+                            <h5>Bootstrap</h5>
+
+                            <p class="text-muted">
+                                Build responsive websites quickly.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+                            <button class="btn btn-primary rounded-pill w-100">
+                                Start Course
+                            </button>
                         </div>
 
                     </div>
@@ -323,138 +377,92 @@
 
             </div>
 
-            <!-- Previous -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#courseSlider" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
-            </button>
+        </section>
 
-            <!-- Next -->
-            <button class="carousel-control-next" type="button" data-bs-target="#courseSlider" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
-            </button>
+        <!-- ===================== -->
+        <!-- Recommended Courses -->
+        <!-- ===================== -->
 
-        </div>
+        <section class="container py-5 bg-light rounded-4">
 
-        <h2 class="text-center py-5">Courses that suit you:</h2>
+            <h2 class="fw-bold text-center mb-5">
+                Recommended For You
+            </h2>
 
-        <div id="courseSlider" class="carousel slide container py-5" data-bs-ride="carousel">
+            <div class="row g-4">
 
-            <div class="carousel-inner">
+                <div class="col-md-6 col-lg-4">
 
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
+                    <div class="card border-0 shadow h-100">
 
-                    <div class="d-flex justify-content-center gap-4">
+                        <div class="card-body text-center">
 
-                        <!-- Card 1 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" class="card-img-top" alt="HTML">
+                            <i class="bi bi-laptop display-3 text-primary"></i>
 
-                            <div class="card-body">
-                                <h5 class="card-title">HTML & CSS</h5>
+                            <h4 class="mt-3">
+                                Front-End Track
+                            </h4>
 
-                                <p class="card-text">
-                                    Learn how to build beautiful responsive websites from scratch.
-                                </p>
+                            <p class="text-muted">
+                                HTML, CSS, JavaScript, Bootstrap, React.
+                            </p>
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
+                            <button class="btn btn-outline-primary rounded-pill px-4">
+                                Learn More
+                            </button>
 
-                        <!-- Card 2 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600" class="card-img-top" alt="JavaScript">
-
-                            <div class="card-body">
-                                <h5 class="card-title">JavaScript</h5>
-
-                                <p class="card-text">
-                                    Master JavaScript and build interactive web applications.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600" class="card-img-top" alt="Bootstrap">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Bootstrap</h5>
-
-                                <p class="card-text">
-                                    Create responsive websites quickly using Bootstrap.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
                         </div>
 
                     </div>
 
                 </div>
 
-                <!-- Slide 2 -->
-                <div class="carousel-item">
+                <div class="col-md-6 col-lg-4">
 
-                    <div class="d-flex justify-content-center gap-4">
+                    <div class="card border-0 shadow h-100">
 
-                        <!-- Card 4 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600" class="card-img-top" alt="Python">
+                        <div class="card-body text-center">
 
-                            <div class="card-body">
-                                <h5 class="card-title">Python</h5>
+                            <i class="bi bi-server display-3 text-success"></i>
 
-                                <p class="card-text">
-                                    Learn Python from beginner to advanced level.
-                                </p>
+                            <h4 class="mt-3">
+                                Back-End Track
+                            </h4>
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                            <p class="text-muted">
+                                Node.js, Express, MongoDB.
+                            </p>
+
+                            <button class="btn btn-outline-success rounded-pill px-4">
+                                Learn More
+                            </button>
+
                         </div>
 
-                        <!-- Card 5 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600" class="card-img-top" alt="React">
+                    </div>
 
-                            <div class="card-body">
-                                <h5 class="card-title">React.js</h5>
+                </div>
 
-                                <p class="card-text">
-                                    Build modern web applications with React.
-                                </p>
+                <div class="col-md-6 col-lg-4">
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
+                    <div class="card border-0 shadow h-100">
 
-                        <!-- Card 6 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600" class="card-img-top" alt="Node">
+                        <div class="card-body text-center">
 
-                            <div class="card-body">
-                                <h5 class="card-title">Node.js</h5>
+                            <i class="bi bi-phone display-3 text-danger"></i>
 
-                                <p class="card-text">
-                                    Learn backend development using Node.js.
-                                </p>
+                            <h4 class="mt-3">
+                                Mobile Apps
+                            </h4>
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                            <p class="text-muted">
+                                Flutter & Firebase from scratch.
+                            </p>
+
+                            <button class="btn btn-outline-danger rounded-pill px-4">
+                                Learn More
+                            </button>
+
                         </div>
 
                     </div>
@@ -463,138 +471,168 @@
 
             </div>
 
-            <!-- Previous -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#courseSlider" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
-            </button>
+        </section>
 
-            <!-- Next -->
-            <button class="carousel-control-next" type="button" data-bs-target="#courseSlider" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
-            </button>
+        <!-- Free Courses -->
 
-        </div>
+        <section class="container py-5">
 
-        <h2 class="text-center py-5">Free courses:</h2>
+            <div class="d-flex justify-content-between align-items-center mb-4">
 
-        <div id="courseSlider" class="carousel slide container py-5" data-bs-ride="carousel">
+                <h2 class="fw-bold">
+                    Free Courses
+                </h2>
 
-            <div class="carousel-inner">
+                <a href="#" class="text-decoration-none">
+                    View All
+                </a>
 
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
+            </div>
 
-                    <div class="d-flex justify-content-center gap-4">
+            <div class="row g-4">
 
-                        <!-- Card 1 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" class="card-img-top" alt="HTML">
+                <!-- Course 1 -->
+                <div class="col-12 col-sm-6 col-lg-3">
 
-                            <div class="card-body">
-                                <h5 class="card-title">HTML & CSS</h5>
+                    <div class="card border-0 shadow h-100">
 
-                                <p class="card-text">
-                                    Learn how to build beautiful responsive websites from scratch.
-                                </p>
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                        <div class="card-body">
+
+                            <span class="badge bg-success mb-2">
+                                Free
+                            </span>
+
+                            <h5 class="fw-bold">
+                                HTML
+                            </h5>
+
+                            <p class="text-muted">
+                                Learn HTML from scratch.
+                            </p>
+
                         </div>
 
-                        <!-- Card 2 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600" class="card-img-top" alt="JavaScript">
+                        <div class="card-footer bg-white border-0">
 
-                            <div class="card-body">
-                                <h5 class="card-title">JavaScript</h5>
+                            <button class="btn btn-success w-100 rounded-pill">
+                                Enroll Free
+                            </button>
 
-                                <p class="card-text">
-                                    Master JavaScript and build interactive web applications.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600" class="card-img-top" alt="Bootstrap">
-
-                            <div class="card-body">
-                                <h5 class="card-title">Bootstrap</h5>
-
-                                <p class="card-text">
-                                    Create responsive websites quickly using Bootstrap.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
                         </div>
 
                     </div>
 
                 </div>
 
-                <!-- Slide 2 -->
-                <div class="carousel-item">
+                <!-- Course 2 -->
+                <div class="col-12 col-sm-6 col-lg-3">
 
-                    <div class="d-flex justify-content-center gap-4">
+                    <div class="card border-0 shadow h-100">
 
-                        <!-- Card 4 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600" class="card-img-top" alt="Python">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
 
-                            <div class="card-body">
-                                <h5 class="card-title">Python</h5>
+                        <div class="card-body">
 
-                                <p class="card-text">
-                                    Learn Python from beginner to advanced level.
-                                </p>
+                            <span class="badge bg-success mb-2">
+                                Free
+                            </span>
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                            <h5 class="fw-bold">
+                                CSS
+                            </h5>
+
+                            <p class="text-muted">
+                                Master modern CSS techniques.
+                            </p>
+
                         </div>
 
-                        <!-- Card 5 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600" class="card-img-top" alt="React">
+                        <div class="card-footer bg-white border-0">
 
-                            <div class="card-body">
-                                <h5 class="card-title">React.js</h5>
+                            <button class="btn btn-success w-100 rounded-pill">
+                                Enroll Free
+                            </button>
 
-                                <p class="card-text">
-                                    Build modern web applications with React.
-                                </p>
-
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
                         </div>
 
-                        <!-- Card 6 -->
-                        <div class="card shadow" style="width:18rem;">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600" class="card-img-top" alt="Node">
+                    </div>
 
-                            <div class="card-body">
-                                <h5 class="card-title">Node.js</h5>
+                </div>
 
-                                <p class="card-text">
-                                    Learn backend development using Node.js.
-                                </p>
+                <!-- Course 3 -->
+                <div class="col-12 col-sm-6 col-lg-3">
 
-                                <a href="#" class="btn btn-primary w-100">
-                                    Start Course
-                                </a>
-                            </div>
+                    <div class="card border-0 shadow h-100">
+
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-success mb-2">
+                                Free
+                            </span>
+
+                            <h5 class="fw-bold">
+                                JavaScript Basics
+                            </h5>
+
+                            <p class="text-muted">
+                                Start programming with JavaScript.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+
+                            <button class="btn btn-success w-100 rounded-pill">
+                                Enroll Free
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Course 4 -->
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="card border-0 shadow h-100">
+
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600"
+                            class="card-img-top"
+                            style="height:220px;object-fit:cover;">
+
+                        <div class="card-body">
+
+                            <span class="badge bg-success mb-2">
+                                Free
+                            </span>
+
+                            <h5 class="fw-bold">
+                                Bootstrap
+                            </h5>
+
+                            <p class="text-muted">
+                                Build responsive websites easily.
+                            </p>
+
+                        </div>
+
+                        <div class="card-footer bg-white border-0">
+
+                            <button class="btn btn-success w-100 rounded-pill">
+                                Enroll Free
+                            </button>
+
                         </div>
 
                     </div>
@@ -603,20 +641,41 @@
 
             </div>
 
-            <!-- Previous -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#courseSlider" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span>
-            </button>
+        </section>
 
-            <!-- Next -->
-            <button class="carousel-control-next" type="button" data-bs-target="#courseSlider" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span>
-            </button>
+        <!-- ===================== -->
+        <!-- Newsletter -->
+        <!-- ===================== -->
 
-        </div>
+        <section class="container py-5 mb-5">
 
-  </main>
-  <!-- Footer -->
+            <div class="bg-primary text-white rounded-4 p-5 text-center shadow">
+
+                <h2 class="fw-bold">
+                    Stay Updated
+                </h2>
+
+                <p class="lead">
+                    Subscribe to receive the latest courses and special offers.
+                </p>
+
+                <div class="input-group mx-auto mt-4" style="max-width:500px;">
+
+                    <input type="email"
+                        class="form-control shadow-none"
+                        placeholder="Enter your email">
+
+                    <button class="btn btn-warning">
+                        Subscribe
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <!-- Footer -->
   
     <footer class="container py-5 bg-white rounded-3 shadow-sm mt-5">
 
